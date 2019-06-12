@@ -23,10 +23,16 @@
   },
   "homepage": "https://github.com/bjesuiter/angular-version-stamp#readme",
   "builders": "builders.json",
-  "dependencies": {},
+  "dependencies": {
+    "fs-extra": "latest",
+    "git-describe": "latest",
+    "project-version": "latest",
+    "read-pkg": "^5.1.1"
+  },
   "devDependencies": {
     "@angular-devkit/architect": "^0.800.2",
     "@angular-devkit/core": "^8.0.2",
+    "@types/fs-extra": "^7.0.0",
     "@types/node": "^12.0.8",
     "typescript": "^3.5.1"
   }

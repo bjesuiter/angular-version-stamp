@@ -1,8 +1,8 @@
 {
   "$schema": "@angular-devkit/architect/src/builders-schema.json",
   "builders": {
-    "builder-name": {
-      "class": "./src/version-stamp.builder.js",
+    "generate": {
+      "implementation": "./src/version-stamp.builder",
       "schema": "version-stamp.schema.json",
       "description": "Builder which stamps the current version from package.json & `git describe` output into an env ts file"
     }
