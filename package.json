@@ -1,0 +1,25 @@
+{
+  "name": "angular-version-stamp",
+  "version": "0.0.1",
+  "description": "An Angular 8 Builder which stamps the current version from package.json & `git describe` output into an angular Environment.ts file",
+  "main": "angular-version-stamp.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bjesuiter/angular-version-stamp.git"
+  },
+  "keywords": [
+    "angular-architect-builder",
+    "angular-builder",
+    "angular-version-builder",
+    "angular-version-stamp"
+  ],
+  "author": "Benjamin Jesuiter <bjesuiter@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bjesuiter/angular-version-stamp/issues"
+  },
+  "homepage": "https://github.com/bjesuiter/angular-version-stamp#readme"
+}
