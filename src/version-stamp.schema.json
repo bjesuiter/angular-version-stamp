@@ -1,0 +1,12 @@
+{
+  "id": "VersionStampBuilderSchema",
+  "title": "Version Stamp builder",
+  "description": "Version Stamp builder options",
+  "properties": {
+    "filename": {
+      "type": "string",
+      "description": "Filename for the env file in ts format which gets created",
+      "default": "version-info"
+    }
+  }
+}
