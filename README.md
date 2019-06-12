@@ -1,6 +1,11 @@
 # angular-version-stamp
 An Angular 8 Builder which stamps the current version from package.json &amp; the output from git describe into an environment file which can be read from inside angular
 
+# Testing 
+
+- Config with [ts-jest](https://www.npmjs.com/package/ts-jest)
+- Running with jest
+
 # Literature
 
 - [How to build Angular 'Architect'-API Builders](https://medium.com/dailyjs/angular-cli-6-under-the-hood-builders-demystified-f0690ebcf01)
