@@ -1,4 +1,7 @@
 # angular-version-stamp
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/bjesuiter/angular-version-stamp.svg)](https://greenkeeper.io/)
+
 An Angular 8 Builder which stamps the current version from package.json &amp; the output from git describe into an environment file which can be read from inside angular
 
 # Testing 
